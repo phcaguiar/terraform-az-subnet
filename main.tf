@@ -8,7 +8,7 @@ resource "azurerm_subnet" "subnet" {
   resource_group_name       = "${var.azure_resource_group}"
   #address_prefix            = "${(cidrsubnet(var.vnet_cidr,8,1))}"
   #address_prefix            = "${var.subnet_prefixes[count.index]}"
-  address_prefix            = "${var.subnet_prefixes}"
+  address_prefix            = "${var.subnet_prefixe}"
   #network_security_group_id = "${azurerm_network_security_group.security_group.id}"
   #count                     = "${var.subnet_count}"
 }
