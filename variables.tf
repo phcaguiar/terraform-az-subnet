@@ -1,4 +1,4 @@
-variable "subnet_prefixe"       {}
-variable "subnet_name"          {}
+variable "name"                 {}
+variable "address_prefix"       {}
 variable "virtual_network_name" {}
-variable "azure_resource_group" {}
+variable "resource_group_name"  {}
